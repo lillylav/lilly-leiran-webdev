@@ -1,0 +1,67 @@
+/* universal selector */
+* {
+  background-color: var(--pink);
+}
+
+:root {
+  --pink: #D8C0C6;
+  --dark-purple: #1A1423;
+  --white: white;
+}
+/* universal selector */
+
+
+/* utility classes */
+.dark-font {
+  color: var(--dark-purple);
+}
+
+.white-font {
+  color: var(--white);
+}
+/* utility classes */
+
+
+/* header stuff */
+.header {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.navbar-item {
+  color: var(--dark-purple);
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 35px;
+}
+
+.navbar-item:hover {
+  background-color: var(--dark-purple) !important;
+  color: var(--pink) !important;
+}
+/* header stuff */
+
+
+/* about stuff */
+#lilly-img {
+  border-radius: 150px;
+}
+/* about stuff */
