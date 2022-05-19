@@ -7,7 +7,7 @@ import coverImage from "../assets/img/lilly.jpg";
 function About() {
     return (
         <section id="about" className="my-5">
-            <img src={coverImage} id="lilly-img" className="my-2" style={{ width: "33%" }} alt="A late twenties white woman with a shoulder length straight blonde hair and brown eyes smiling" />
+            <img src={ coverImage } id="lilly-img" className="my-2" style={{ width: "33%" }} alt="A late twenties white woman with a shoulder length straight blonde hair and brown eyes smiling" />
             <h1>Hi, I'm Lilly Leiran</h1>
             <p class="">
                 My name’s Lilly Leiran and I’m a full stack web developer. I’ve known for a couple years that I wanted to make a career change so I spent a lot of time thinking about what I’ve enjoyed in the past and what I want in my future career and all of that thinking led me to coding.

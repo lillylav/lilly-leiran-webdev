@@ -19,36 +19,28 @@
 .white-font {
   color: var(--white);
 }
+
+.pink-background {
+  background-color: var(--pink);
+}
 /* utility classes */
 
 
 /* header stuff */
-.header {
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
+#logo {
+  height: 100px;
 }
 
 .nav-items {
+  background-color: var(--pink) !important;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.logo {
-  height: 20vmin;
-  pointer-events: none;
-}
-
 .navbar-item {
   color: var(--dark-purple);
-  text-decoration: none;
   padding: 15px;
   border-radius: 35px;
 }
@@ -56,6 +48,11 @@
 .navbar-item:hover {
   background-color: var(--dark-purple) !important;
   color: var(--pink) !important;
+}
+
+.hover-ignore:hover {
+  background-color: var(--pink) !important;
+  color: var(--dark-purple) !important;
 }
 /* header stuff */
 
