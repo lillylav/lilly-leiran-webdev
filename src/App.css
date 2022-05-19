@@ -50,6 +50,11 @@
   color: var(--pink) !important;
 }
 
+/* .navbar-item {
+  background-color: var(--dark-purple) !important;
+  color: var(--pink) !important;
+} */
+
 .hover-ignore:hover {
   background-color: var(--pink) !important;
   color: var(--dark-purple) !important;
