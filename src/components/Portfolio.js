@@ -30,7 +30,7 @@ function Portfolio() {
                             <img src="https://img.icons8.com/carbon-copy/50/000000/domain.png" className="light-background"/>
                         </a>
                         <a href="https://github.com/jeremy0anderson/shiny-octo-chainsaw" target="_blank" className="light-background">
-                            <img src="https://img.icons8.com/carbon-copy/50/000000/github.png" className="light-background"/>
+                            <img src="https://img.icons8.com/ios/40/000000/github--v1.png" className="light-background"/>
                         </a>
                     </div>
                 </article>
@@ -46,7 +46,7 @@ function Portfolio() {
                         <img src="https://img.icons8.com/carbon-copy/50/000000/domain.png" className="light-background" />
                     </a>
                     <a href="https://github.com/lillylav/brain-food" target="_blank" className="light-background">
-                        <img src="https://img.icons8.com/carbon-copy/50/000000/github.png"className="light-background" />
+                        <img src="https://img.icons8.com/ios/40/000000/github--v1.png"className="light-background" />
                     </a>
                 </article>
 
@@ -61,7 +61,7 @@ function Portfolio() {
                         <img src="https://img.icons8.com/carbon-copy/50/000000/domain.png" className="light-background" />
                     </a>
                     <a href="https://github.com/lillylav/weather-dashboard" target="_blank" className="light-background">
-                        <img src="https://img.icons8.com/carbon-copy/50/000000/github.png"className="light-background" />
+                        <img src="https://img.icons8.com/ios/40/000000/github--v1.png"className="light-background" />
                     </a>
                 </article>
 
@@ -76,7 +76,7 @@ function Portfolio() {
                         <img src="https://img.icons8.com/carbon-copy/50/000000/domain.png" className="light-background" />
                     </a>
                     <a href="https://github.com/lillylav/password" target="_blank" className="light-background">
-                        <img src="https://img.icons8.com/carbon-copy/50/000000/github.png" className="light-background" />
+                        <img src="https://img.icons8.com/ios/40/000000/github--v1.png" className="light-background" />
                     </a>
                 </article>
 
@@ -91,7 +91,7 @@ function Portfolio() {
                         <img src="https://img.icons8.com/carbon-copy/50/000000/domain.png" className="light-background" />
                     </a>
                     <a href="https://github.com/lillylav/daily-calendar" target="_blank" className="light-background">
-                        <img src="https://img.icons8.com/carbon-copy/50/000000/github.png" className="light-background" />
+                        <img src="https://img.icons8.com/ios/40/000000/github--v1.png" className="light-background" />
                     </a>
                 </article>
 
@@ -106,7 +106,7 @@ function Portfolio() {
                         <img src="https://img.icons8.com/carbon-copy/50/000000/domain.png" className="light-background" />
                     </a>
                     <a href="https://github.com/lillylav/git-it-done" target="_blank" className="light-background">
-                        <img src="https://img.icons8.com/carbon-copy/50/000000/github.png" className="light-background" />
+                        <img src="https://img.icons8.com/ios/40/000000/github--v1.png" className="light-background" />
                     </a>
                 </article>
 
@@ -121,7 +121,7 @@ function Portfolio() {
                         <img src="https://img.icons8.com/carbon-copy/50/000000/domain.png" className="light-background" />
                     </a>
                     <a href="https://github.com/lillylav/taskmaster-pro" target="_blank" className="light-background">
-                        <img src="https://img.icons8.com/carbon-copy/50/000000/github.png" className="light-background" />
+                        <img src="https://img.icons8.com/ios/40/000000/github--v1.png" className="light-background" />
                     </a>
                 </article>
             </div>

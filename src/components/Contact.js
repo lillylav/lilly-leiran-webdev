@@ -74,10 +74,10 @@ function Contact() {
                   </a>
                   <br />
                   <a href="https://github.com/lillylav" target="_blank" className="dark-font link">
-                    <img src="https://img.icons8.com/carbon-copy/50/000000/github.png"/>
+                    <img src="https://img.icons8.com/ios/50/000000/github--v1.png"/>
                   </a>
-                  <a href="linkedin.com" target="_blank" className="dark-font link">
-                    LinkedIn Icon
+                  <a href="https://www.linkedin.com/in/elizabethleiran/" target="_blank" className="dark-font link">
+                    <img src="https://img.icons8.com/ios/52/000000/linkedin-circled--v1.png"/>
                   </a>
                 </div>
               </div>
