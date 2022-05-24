@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto+Flex:opsz,wght@8..144,100&display=swap');;
+
 /* universal selector */
 * {
   background-color: var(--pink);
+  font-family: roboto flex;
 }
 
 :root {
+  --light-pink: #E0CCD1;
   --pink: #D8C0C6;
   --dark-purple: #1A1423;
   --white: white;
+}
+
+h2, h3, h4, a {
+  font-family: koulen;
 }
 /* universal selector */
 
@@ -20,14 +28,31 @@
   color: var(--white);
 }
 
+.light-background {
+  background-color: var(--light-pink);
+}
+
 .pink-background {
   background-color: var(--pink);
+}
+
+.dark-background {
+  background-color: var(--dark-purple);
+}
+
+.koulen {
+  font-family: koulen;
+}
+
+.link:hover {
+  color: var(--white);
 }
 /* utility classes */
 
 
 /* header stuff */
 #logo {
+  background-color: var(--pink);
   height: 100px;
 }
 
@@ -40,30 +65,77 @@
 }
 
 .navbar-item {
+  background-color: var(--pink);
   color: var(--dark-purple);
   padding: 15px;
   border-radius: 35px;
 }
 
 .navbar-item:hover {
-  background-color: var(--dark-purple) !important;
-  color: var(--pink) !important;
+  background-color: var(--pink) !important;
+  color: var(--white) !important;
 }
-
-/* .navbar-item {
-  background-color: var(--dark-purple) !important;
-  color: var(--pink) !important;
-} */
 
 .hover-ignore:hover {
   background-color: var(--pink) !important;
-  color: var(--dark-purple) !important;
 }
 /* header stuff */
 
 
 /* about stuff */
 #lilly-img {
-  border-radius: 150px;
+  margin: 0 !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* about stuff */
+
+/* portfolio stuff */
+.projects a {
+  color: var(--dark-purple);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.projects article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project h4:hover {
+  color: var(--white);
+}
+
+.screenshot {
+  width: 100%;
+}
+/* portfolio stuff */
+
+/* custom responsive design start */
+@media screen and (min-width: 768px) {
+  /* applies to screens above 768px */
+  .project {
+      flex: 0 1 300px;
+      margin: 2%;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  /* applies to screens above 980px */
+  .project {
+      flex: 0 1 500px;
+      margin: 2%;
+  }
+}
+/* custom responsive design end */

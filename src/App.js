@@ -15,15 +15,15 @@ import Contact from './components/Contact';
 // page's JSX
 function App() {
   return (
-    <div>
+    <body className="light-background">
       <Nav />
-      <main>
+      <main className="container light-background">
         <About />
         <Portfolio />
         <Resume />
         <Contact />
       </main>
-    </div>
+    </body>
   );
 }
 
