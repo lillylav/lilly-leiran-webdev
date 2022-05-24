@@ -76,7 +76,7 @@ function Contact() {
                   <a href="https://github.com/lillylav" target="_blank" className="dark-font link">
                     <img src="https://img.icons8.com/ios/50/000000/github--v1.png"/>
                   </a>
-                  <a href="https://www.linkedin.com/in/elizabethleiran/" target="_blank" className="dark-font link">
+                  <a href="https://www.linkedin.com/in/lillyleiran/" target="_blank" className="dark-font link">
                     <img src="https://img.icons8.com/ios/52/000000/linkedin-circled--v1.png"/>
                   </a>
                 </div>
