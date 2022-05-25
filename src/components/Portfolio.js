@@ -19,6 +19,23 @@ function Portfolio() {
     
             <div className="projects">
                 <article className="box light-background project">
+                    <a href="REPLACE" target="_blank" className="light-background"> 
+                        <h4 className="subtitle is-5 has-text-centered light-background dark-font">
+                            Assassination: Between Two Kingdoms, A Multi-Player Game (Version 2)
+                        </h4>
+                        <img src={ assassinationImg } className="screenshot" />
+                    </a>
+                    <div className="has-text-right light-background">
+                        <a href="https://assassination-react.herokuapp.com/" target="_blank" className="light-background">
+                            <img src="https://img.icons8.com/carbon-copy/50/000000/domain.png" className="light-background"/>
+                        </a>
+                        <a href="https://github.com/jeremy0anderson/Assassination-v2" target="_blank" className="light-background">
+                            <img src="https://img.icons8.com/ios/40/000000/github--v1.png" className="light-background"/>
+                        </a>
+                    </div>
+                </article>
+
+                <article className="box light-background project">
                     <a href="https://assassination-multiplayer.herokuapp.com/home" target="_blank" className="light-background"> 
                         <h4 className="subtitle is-5 has-text-centered light-background dark-font">
                             Assassination: Between Two Kingdoms, A Multi-Player Game
