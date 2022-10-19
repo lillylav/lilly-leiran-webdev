@@ -18,7 +18,7 @@ function Portfolio() {
             </h2>
     
             <div className="projects">
-                <article className="box light-background project">
+                {/* <article className="box light-background project">
                     <a href="REPLACE" target="_blank" className="light-background"> 
                         <h4 className="subtitle is-5 has-text-centered light-background dark-font">
                             Assassination: Between Two Kingdoms, A Multi-Player Game (Version 2)
@@ -50,7 +50,7 @@ function Portfolio() {
                             <img src="https://img.icons8.com/ios/40/000000/github--v1.png" className="light-background"/>
                         </a>
                     </div>
-                </article>
+                </article> */}
 
                 <article className="box light-background project">
                     <a href="https://lillylav.github.io/brain-food/" target="_blank" className="light-background">
